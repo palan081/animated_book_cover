@@ -12,7 +12,7 @@
 
 @font-face {
 	font-family:'West VAR';
-	src: url(../fonts/WestTrial-BoldWeb.woff2);
+	src: url(WestTrial-BoldWeb.woff2);
 }
 
 .title {
@@ -26,7 +26,7 @@
 
 @font-face {
 	font-family:'West VAR Light';
-	src: url(../fonts/WestTrial-LightWeb.woff2) format('woff2');
+	src: url(WestTrial-LightWeb.woff2) format('woff2');
 }
 
 .middle {
@@ -125,7 +125,7 @@
 .image {
 	width: 20.5vw;
 	height: 20.5vh;
-	background: url("../multiplecircles.svg") no-repeat;
+	background: url("multiplecircles.svg") no-repeat;
 	position: absolute;
 	left:330px;
 	top: 400px;
