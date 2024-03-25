@@ -135,7 +135,7 @@
 .image2 {
 	width: 20.5vw;
 	height: 20.5vh;
-	background: url("../multiplecircles.svg") no-repeat;
+	background: url("multiplecircles.svg") no-repeat;
 	position: absolute;
 	left: 160px;
 	top: 560px;
@@ -145,7 +145,7 @@
 .image3 {
 	width: 20.5vw;
 	height: 20.5vh;
-	background: url("../multiplecircles.svg") no-repeat;
+	background: url("multiplecircles.svg") no-repeat;
 	position: absolute;
 	left:500px;
 	top: 560px;
