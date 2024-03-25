@@ -1,0 +1,190 @@
+/* this is where all of your CSS styles go */
+
+.frame {
+	width: 800px;
+	height: 920px;
+	border: 2px gray solid;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+@font-face {
+	font-family:'West VAR';
+	src: url(../fonts/WestTrial-BoldWeb.woff2);
+}
+
+.title {
+	font-family: West VAR;
+	font-size: 50px;
+	font-weight: 200;
+	letter-spacing: 0.2em;
+	margin-left: 130px;
+	margin-top: 150px;
+}
+
+@font-face {
+	font-family:'West VAR Light';
+	src: url(../fonts/WestTrial-LightWeb.woff2) format('woff2');
+}
+
+.middle {
+	font-family: West VAR Light;
+	font-size: 30px;
+	font-weight: 40em;
+	letter-spacing: 0.2em;
+	margin-left: 130px;
+	margin-top: -50px;
+}
+
+.author {
+	font-family: 'West VAR Light';
+	font-size: 25px;
+	font-weight: 30em;
+	letter-spacing: 0.2em;
+	margin-left: 300px;
+	margin-top: 80px;
+}
+
+@keyframes circle_fade {
+	0% { opacity:0 }
+	50% { opacity:1 }
+	100% { opacity:0 }
+}
+
+.circle1 { 
+	width: 85px;
+	height: 85px;
+	background: white;
+	border: 30px solid black;
+	border-radius: 100%;
+	position: relative;
+	left: 165px;
+	top: 10px;
+	animation: circle_fade 8s infinite; 
+}
+
+.circle2 {
+	width: 85px;
+	height: 85px;
+	background: #white;
+	border-radius: 100%;
+	border: 30px solid #C0A765;
+	position: relative;
+	left: 500px;
+	top: -135px;
+	animation: circle_fade 12s infinite;
+}
+
+.circle3 {
+	width: 150px;
+	height: 150px;
+	background: #BDD3E8;
+	border-radius: 100%;
+	position: relative;
+	left: 330px;
+	top: -125px;
+	animation: circle_fade 8s infinite;
+}
+
+.circle4 {
+	width: 85px;
+	height: 85px;
+	background: white;
+	border: 30px solid #EA4A3A;
+	border-radius: 100%;
+	position: relative;
+	left: 330px;
+	top: -110px;
+	animation: circle_fade 12s infinite;
+}
+
+.circle5 {
+	width: 150px;
+	height: 150px;
+	background: #BDD3E8;
+	border-radius: 100%;
+	position: relative;
+	left: 160px;
+	top: -255px;
+	animation: circle_fade 7s infinite;
+}
+
+.circle6 {
+	width: 150px;
+	height: 150px;
+	background: #BDD3E8;
+	border-radius: 100%;
+	position: relative;
+	left: 500px;
+	top: -405px;
+	animation: circle_fade 10s infinite;
+}
+
+.image {
+	width: 20.5vw;
+	height: 20.5vh;
+	background: url("../multiplecircles.svg") no-repeat;
+	position: absolute;
+	left:330px;
+	top: 400px;
+	animation: circle_fade 16s infinite;
+}
+
+.image2 {
+	width: 20.5vw;
+	height: 20.5vh;
+	background: url("../multiplecircles.svg") no-repeat;
+	position: absolute;
+	left: 160px;
+	top: 560px;
+	animation: circle_fade 9s infinite;
+}
+
+.image3 {
+	width: 20.5vw;
+	height: 20.5vh;
+	background: url("../multiplecircles.svg") no-repeat;
+	position: absolute;
+	left:500px;
+	top: 560px;
+	animation: circle_fade 13s infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
