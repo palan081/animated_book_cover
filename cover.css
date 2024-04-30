@@ -123,9 +123,10 @@
 }
 
 .image {
-	width: 20.5vw;
-	height: 20.5vh;
+	width: 150px;
+	height: 150px;
 	background: url("multiplecircles.svg") no-repeat;
+	background-size: 100%;
 	position: absolute;
 	left:330px;
 	top: 400px;
@@ -133,9 +134,10 @@
 }
 
 .image2 {
-	width: 20.5vw;
-	height: 20.5vh;
+	width: 150px;
+	height: 150px;
 	background: url("multiplecircles.svg") no-repeat;
+	background-size: 100%;
 	position: absolute;
 	left: 160px;
 	top: 560px;
@@ -143,9 +145,10 @@
 }
 
 .image3 {
-	width: 20.5vw;
-	height: 20.5vh;
+	width: 150px;
+	height: 150px;
 	background: url("multiplecircles.svg") no-repeat;
+	background-size: 100%;
 	position: absolute;
 	left:500px;
 	top: 560px;
